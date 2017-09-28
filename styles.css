@@ -13,14 +13,6 @@ header>span{
     margin-left: 120px;
 }
 
-.sidebar{
-    background-color: black;
-    height: 2000px;
-    width: 140px;
-    position: absolute;
-    right: 0;
-}
-
 body{
     margin: 0px;
 }
@@ -48,8 +40,14 @@ li>a:hover{
 
 .wrapper{
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr) 140px;
     grid-auto-rows: minmax(50px, auto);
+}
+
+.sidebar{
+    background-color: black;
+    grid-column: 6;
+    grid-row: 1/22;
 }
 
 .one{
@@ -82,7 +80,7 @@ li>a:hover{
 }
 
 .five{
-    grid-column: 2/5;
+    grid-column: 2/4;
     grid-row: 3;
     margin-left: 10%;
     margin-right: 10%;
@@ -103,6 +101,7 @@ li>a:hover{
     background-color: lightgray;
     margin-top: 50px;
     padding-left: 10px;
+    padding-right:20px;
 }
 
 .eight{
@@ -119,10 +118,11 @@ li>a:hover{
     background-color: #E6E1E1;
     margin-top: 50px;
     padding-left: 10px;
+    padding-right:20px;
 }
 
 .ten{
-    grid-column: 3;
+    grid-column: 2;
     grid-row: 6;
     margin-top: 50px;
 }

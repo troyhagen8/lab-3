@@ -1,3 +1,5 @@
+@media screen and (min-width: 1000px){
+
 header{
     background-image: url("header.jpg");
     height: 300px;
@@ -144,4 +146,5 @@ td{
     background-color: #E6E1E1;
     padding: 0 60 0 20px;
     white-space: nowrap;
+}
 }

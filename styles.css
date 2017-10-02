@@ -305,12 +305,32 @@
     }
     
     @media screen and (max-width:599px){
-        body{
-            background-color: yellow;
-        }
-    }
+
+        header{
+            background-image: url("header.jpg");
+            height: 300px;
+            white-space: nowrap;
+            }
+        
+            header>h1{
+            padding-top: 25%;
+            padding-left: 10%;
+            }
+        
+            header>span{
+            margin-left: 120px;
+            }
+        
+            body{
+            margin: 0px;
+            }   
+        
+           .links{
+               
+           }
     
     img{
             width: 100%;
             height: auto;
         }
+    }

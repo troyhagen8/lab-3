@@ -460,11 +460,14 @@
 
             .menu{
                 background-color: black;
-                color: white;
                 position: fixed;
                 bottom: 0;
                 width: 100%;
                 padding: 20 20 20 20px;
-                text-align: center;
+                color: white;
+            }
+
+            .menu>span{
+                margin-left: 40%;
             }
         }

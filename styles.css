@@ -471,9 +471,24 @@
                 margin-left: 35%;
             }
 
-            li{
+            .linkbox{
+                position: fixed;
+                bottom: 50;
+                height: 100px;
+                width: 100%;
+                background-color: grey;
                 display: none;
-            }
+                }
+            
+                li{
+                list-style-type: none;
+                margin-left: 35%
+                display: none;
+                }
+            
+                li>a:hover{
+                color: gray;
+                }
 
             body>header{
                 font-size: 12px;

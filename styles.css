@@ -473,8 +473,8 @@
 
             .linkbox{
                 position: fixed;
-                bottom: 60;
-                height: 100px;
+                bottom: 80;
+                height: 130px;
                 width: 100%;
                 background-color: grey;
                 display: none;

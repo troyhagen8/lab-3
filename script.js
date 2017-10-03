@@ -1,4 +1,3 @@
-document.getElementById("menu").onclick = function(){
-
-    document.getElementById("menu").style.backgroundColor = red;
+document.getElementById("tmenu").onclick = function(){
+    document.getElementById("tmenu").style.backgroundColor = "red";
 }

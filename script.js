@@ -6,7 +6,7 @@ document.getElementById("tmenu").onclick = function(){
     document.getElementById("test").textContent = "Hide Menu";
     }
 
-    if(document.getElementById("linkmenu").style.display === "none"){
+    else if(document.getElementById("linkmenu").style.display === "none"){
         
         document.getElementById("linkmenu").style.display = "initial";
         document.getElementById("test").textContent = "Hide Menu";

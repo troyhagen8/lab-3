@@ -147,6 +147,10 @@
         padding: 0 60 0 20px;
         white-space: nowrap;
         }
+
+        .f{
+            margin-left: 40%;
+        }
     
     }
     
@@ -301,6 +305,10 @@
             width: 100%;
             height: auto;
         }
+
+        .f{
+            margin-left: 40%;
+        }
         
     }
     
@@ -323,14 +331,122 @@
         
             body{
             margin: 0px;
-            }   
-        
-           .links{
-               
-           }
+            }  
+            
+            .wrapper{
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                grid-auto-rows: minmax(50px, auto);
+                }
+            
+                .one{
+                grid-column: 1/2;
+                grid-row: 1;
+                background-color: lightgray;
+                padding: 10%;
+                  
+                }
+            
+                .two{
+                grid-column: 1/2;
+                grid-row: 2;
+                background-color: #E6E1E1; 
+                padding: 10%;
+                  
+                }
+            
+                .three{
+                grid-column: 1/2;
+                grid-row: 3;
+                padding-top: 50px;
+                padding-left: 10%;
+                padding-right: 10%;
+                }
+            
+                .four{
+                 grid-column: 1/2;                
+                grid-row: 4;
+                padding-top: 50px;
+                }
+            
+                .five{
+                grid-column: 1/2;
+                grid-row: 5;
+                padding-top: 50px;
+                }
+            
+                .six{
+                grid-column: 1/2;
+                grid-row: 6;
+                background-color: #E6E1E1;
+                margin-top: 50px;
+                padding-left: 10px;
+                }
+            
+                .seven{
+                grid-column: 1/2;
+                grid-row: 7;
+                background-color: lightgray;
+                margin-top: 50px;
+                padding-left: 10px;
+                padding-right:20px;
+                }
+            
+                .eight{
+                grid-column: 1/2;
+                grid-row: 8;
+                background-color: lightgray;
+                margin-top: 50px;
+                padding-left: 10px;
+                }   
+            
+                .nine{
+                grid-column: 1/2;
+                grid-row: 9;
+                background-color: #E6E1E1;
+                margin-top: 50px;
+                padding-left: 10px;
+                padding-right:20px;
+                }
+            
+                .ten{
+                grid-column: 1/2;
+                grid-row: 10;
+                margin-bottom: 100px;
+                margin-top: 50px;
+                }
+            
+                .headerCenter{
+                text-align: center;
+                }   
+            
+                td{
+                padding: 5px;
+                }
+            
+                .cellCol1{
+                background-color: lightgray;
+                white-space: nowrap;
+                padding-left: 10;
+                padding-right: 10;
+                }
+            
+                .cellCol2{
+                background-color: #E6E1E1;
+                padding: 0 60 0 20px;
+                white-space: nowrap;
+                }
+
+                table{
+                    margin-left: 10%;
+                }
     
-    img{
+            img{
             width: 100%;
             height: auto;
+            }
+
+            .f{
+                margin-left: 40%;
+            }
         }
-    }

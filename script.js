@@ -18,3 +18,8 @@ document.getElementById("tmenu").onclick = function(){
     }
 
 }
+
+document.getElementById("links").onclick = function(){
+    document.getElementById("linkmenu").style.display = "none";
+    document.getElementById("test").textContent = "Show menu";
+}

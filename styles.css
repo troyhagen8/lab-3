@@ -367,12 +367,16 @@
                  grid-column: 1/2;                
                 grid-row: 4;
                 padding-top: 50px;
+                padding-left: 10%;
+                padding-right: 10%;
                 }
             
                 .five{
                 grid-column: 1/2;
                 grid-row: 5;
                 padding-top: 50px;
+                padding-left: 10%;
+                padding-right: 10%;
                 }
             
                 .six{

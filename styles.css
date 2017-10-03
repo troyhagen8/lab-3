@@ -470,4 +470,8 @@
             .menu>span{
                 margin-left: 35%;
             }
+
+            li{
+                display: none;
+            }
         }

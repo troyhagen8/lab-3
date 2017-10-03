@@ -127,8 +127,14 @@
             </div>
         </div>
 
-        <div class="menu"><span>Show Menu</span></div>
+        <div class="menu" id="tmenu"><span id="test">Show Menu</span></div>
 
     </body>
+
+    <script>
+        document.getElementById("tmenu").onclick = function(){
+                   document.getElementById("tmenu").style.backgroundColor = "red";
+        }
+        </script>
     
     </html>

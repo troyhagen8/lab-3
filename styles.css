@@ -473,8 +473,8 @@
 
             .linkbox{
                 position: fixed;
-                bottom: 80;
-                height: 130px;
+                bottom: 55;
+                height: 100;
                 width: 100%;
                 background-color: grey;
                 display: none;
@@ -487,10 +487,6 @@
                 padding-bottom: 5px;
                 }
             
-                li>a:hover{
-                color: white;
-                }
-
                 .links{
                     text-decoration: none;
                     color: black;

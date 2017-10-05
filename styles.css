@@ -17,7 +17,11 @@
     
         body{
         margin: 0px;
-        }   
+        }
+    
+        #linkmenu{
+            display: none;
+        }
     
         .linkboxWide{
         position: fixed;

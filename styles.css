@@ -18,6 +18,11 @@
         body{
         margin: 0px;
         }
+
+        .links{
+        text-decoration: none;
+        color: white;
+        }   
     
         .linkbox{
             display: none;
@@ -179,6 +184,10 @@
         text-decoration: none;
         color: white;
         }   
+
+        .linkbox{
+            display: none;
+        }
     
         .linkboxWide{
         position: fixed;

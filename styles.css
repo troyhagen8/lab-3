@@ -24,7 +24,7 @@
         color: white;
         }   
     
-        .linkbox{
+        .linkboxWide{
         position: fixed;
         bottom: 0;
         right: 20;
@@ -181,7 +181,7 @@
         color: white;
         }   
     
-        .linkbox{
+        .linkboxWide{
         position: fixed;
         bottom: -50;
         height: 100px;
@@ -479,6 +479,10 @@
                 background-color: grey;
                 display: none;
                 }
+        
+        .linkboxWide{
+            display: none;
+        }
             
                 li{
                 list-style-type: none;

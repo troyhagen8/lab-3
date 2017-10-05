@@ -19,14 +19,6 @@
         margin: 0px;
         }   
     
-        #link1{
-        display:none;    
-        }
-    
-        .linkbox{
-        display: none;    
-        }
-    
         .linkboxWide{
         position: fixed;
         bottom: 0;
